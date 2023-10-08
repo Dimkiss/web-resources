@@ -1,0 +1,19 @@
+@media screen and (max-width: 800px) {
+    #wrapper {
+        max-width: 600px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    #wrapper {
+        max-width: 400px;
+    }
+    .skills_wrapper {
+        justify-content: center;
+    }
+
+    .education_wrapper {
+        justify-content: center;
+    }
+
+}

@@ -1,0 +1,110 @@
+html, body {
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    margin: 0!important;
+    padding: 0!important;
+}
+
+header, footer {
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    width: 97%;
+    border-top: 1px solid #939393;
+    padding-top: 2%;
+    margin-bottom: 2%;
+}
+
+footer h4 {
+    margin-top: 0;
+    margin-bottom: 1%;
+    text-align: center;
+}
+
+footer .contacts {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+section {
+    width: 100%;
+}
+
+section:not(:last-child) {
+    padding-bottom: 5%;
+    border-bottom: 1px solid #939393;
+}
+
+.App {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+#wrapper {
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+    
+    width: 800px;
+    flex-grow: 1;
+
+    margin-left: 5px;
+    margin-right: 5px;
+
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -o-transition: all .5s ease;
+    transition: all .5s ease;
+}
+
+.education_wrapper {
+    display: flex;
+    flex-direction: column-reverse;
+    flex-wrap: wrap;
+    border: 1px solid rgb(138, 43, 226);
+    box-shadow: 2px 2px 17px 2px rgb(138, 43, 226);
+    border-radius: 12px;
+    padding: 10px;
+
+    text-align: justify;
+}
+
+.education_element {
+    max-width: 100%;
+}
+
+.skills_wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.skills_element {
+    border: 1px solid rgb(138, 43, 226);
+    box-shadow: 4px 4px 12px rgb(138, 43, 226);
+    border-radius: 15px;
+    padding: 10px;
+    margin: 5px;
+    min-width: 200px;
+    justify-content: center;
+}
+
+div {
+    display: flex;
+}
